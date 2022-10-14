@@ -1,0 +1,155 @@
+/* ----------------------------------------------------------------
+
+	Layouts.scss
+
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+	Bootstrap Adjustments
+-----------------------------------------------------------------*/
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+  .card-columns > * {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/*	Custom Bootstap Columns */
+.col-1-5 {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+@media (min-width: 576px) {
+  .col-sm-1-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-1-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-1-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-1-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .col-xxl-1-5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+#wrapper {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 1200px) {
+  body:not(.stretched) #wrapper {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1440px) {
+  body:not(.stretched) #wrapper {
+    max-width: 1440px;
+  }
+}
+.stretched #wrapper {
+  width: 100%;
+  margin: 0;
+  box-shadow: none;
+}
+
+/* ----------------------------------------------------------------
+	Sections
+-----------------------------------------------------------------*/
+.section {
+  position: relative;
+  width: 100%;
+  margin: 4rem 0;
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+.section .container {
+  z-index: 2;
+}
+.section .container + .video-wrap {
+  z-index: 1;
+}
+
+.parallax {
+  background-color: transparent;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.mobile-parallax,
+.video-placeholder {
+  background-size: cover !important;
+  background-attachment: scroll !important;
+  background-position: center center !important;
+}
+
+.revealer-image {
+  position: relative;
+  bottom: -100px;
+  transition: bottom .3s ease-in-out;
+  -webkit-transition: bottom .3s ease-in-out;
+  -o-transition: bottom .3s ease-in-out;
+}
+.section:hover .revealer-image {
+  bottom: -50px;
+}
+
+/* ----------------------------------------------------------------
+	Columns & Grids
+-----------------------------------------------------------------*/
+.postcontent,
+.sidebar {
+  position: relative;
+}

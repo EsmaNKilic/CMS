@@ -1,0 +1,29 @@
+.input-form-error{
+    font-size: 12px;
+    color: #ff5b5b;
+    font-style: italic;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    vertical-align: middle!important;
+}
+
+.sortable{
+    cursor: move;
+}
+
+.video_url_container{
+    display: none;
+}
+
+.button-information-container{
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

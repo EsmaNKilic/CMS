@@ -50,5 +50,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'dashboard';
+
+$route['login'] = 'userop/login';
+$route['logout'] = 'userop/logout';
+$route['register'] = 'userop/register';
+$route['new-register'] = 'userop/new_register';
+$route['register-save'] = 'userop/register_save';
+$route['sifremi-unuttum'] = 'userop/forget_password';
+$route['reset-password'] = 'userop/reset_password';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

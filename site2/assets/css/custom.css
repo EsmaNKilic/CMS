@@ -1,0 +1,31 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version: 2.0.5
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+/* .fixed-header-on .dark.header.fixed {
+    background-color: rgba(63, 56, 66, 0.95);
+    height: 50px !important;
+}
+
+@media (min-width: 768px){
+    .navbar-default .navbar-nav > li > a {
+        padding: 28px 10px 27px 14px;
+    }
+} */
+
+.justify-content-center{
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 674px;
+        margin: 30px auto;
+    }
+}

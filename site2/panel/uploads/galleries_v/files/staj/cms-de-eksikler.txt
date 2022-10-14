@@ -1,0 +1,13 @@
+ders 210 map kısmı 
+home-contact ve contact-companent kısmındaki yorum satırları
+
+
+
+
+**ürünlerde foto eklemiyor. ona bak!!
+site2 de anasayfa kayan için panelde ekleyince geliyor ama fotosu görünmğyor ona bi bak
+
+
+popups kodlarında düzenleme kısmında seçenekler gelmiyor
+
+site2 de galeride olan fotolar sıralanıyor ama üstüne tıklayınca detaya gitmiyor
